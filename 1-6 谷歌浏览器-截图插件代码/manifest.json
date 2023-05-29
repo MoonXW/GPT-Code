@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "截图插件",
+  "version": "1.0",
+  "description": "一个用于在谷歌浏览器中进行截图的插件",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+	"declarativeContent"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "default_popup": "popup.html"
+  }
+}

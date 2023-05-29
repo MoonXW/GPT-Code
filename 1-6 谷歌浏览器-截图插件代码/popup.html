@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+
+<html>
+  <head>
+    <title>截图插件</title>
+    <style>
+      body {
+        width: 400px;
+        height: 200px;
+        padding: 10px;
+      }
+	  
+	  #screenshotPreview {
+		  width: 100%;
+		  height: auto;
+		  text-align: center;
+		  margin-top: 20px;
+		}
+
+		#previewImage {
+		  max-width: 100%;
+		  height: auto;
+		}
+
+    </style>
+  </head>
+  <body>
+    <h1>截图插件</h1>
+    <button id="screenshotButton">截图</button>
+	<button id="saveButton">保存截图</button>
+
+	<div id="screenshotPreview">
+	  <img id="previewImage" src="#" alt="Screenshot Preview">
+	</div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
